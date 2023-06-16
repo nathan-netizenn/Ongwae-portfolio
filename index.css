@@ -1,0 +1,152 @@
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    body {
+        background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    }
+      
+
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the  top right */
+    padding: 50px;
+  }
+.logo{
+    color: white;
+    font-size: 18px;
+}
+span{
+    color: orange;
+}
+nav ul li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 100px 50px;
+}
+nav ul li a{
+    color: rgb(201, 63, 22);
+    text-decoration: none;
+    font-weight: italic;
+    padding-left:5px 5px;
+}
+a:hover {
+    color: orange;
+    transition: .1s;
+    cursor: pointer;
+    }
+.me{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: rgb(20, 18, 17);
+    font-size: 20px;
+    margin:5px 0px 5px;
+}
+h3{
+    color: rgb(19, 17, 16);
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+h4{
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: rgb(17, 16, 15);
+}
+.skills{
+    width: 100%;
+    padding: 10px 0px;
+}
+.title h2{
+    color: rgb(18, 17, 17);
+    font-size: 25px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(16, 15, 15);
+    border: 1px solid;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(148, 220, 4);
+}
+h5{
+    font: 25px;
+    font-weight:bolder;
+    margin-bottom: 15px;
+
+}
+.web p{
+    color: rgb(7, 7, 7);
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+.card .button{
+    color: rgb(31, 118, 142);
+    background-color: rgb(221, 221, 233);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(142, 175, 25);
+    cursor: pointer;
+}
+cont{
+    background-color: beige;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+title{
+    background-color: aqua;
+    padding-top: 0%;
+    font-size: 18px;
+}
